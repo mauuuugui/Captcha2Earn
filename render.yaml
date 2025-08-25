@@ -5,8 +5,8 @@ services:
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python main.py
+    pythonVersion: 3.11   # <- specify Python 3.11 here
     envVars:
       - key: BOT_TOKEN
         fromDatabase: false
-        value: "<8083828200:AAE9RY4TW2BAUJqdJF1KLXpzK_-7V8aULSY>"
-    pythonVersion: 3.11
+        value: "<YOUR_BOT_TOKEN_HERE>"
