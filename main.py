@@ -9,6 +9,9 @@ from telegram.ext import (
     filters,
 )
 
+import telegram
+print("PTB version:", telegram.__version__)
+
 TOKEN = os.environ["BOT_TOKEN"]
 
 # ==========================
